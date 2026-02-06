@@ -197,15 +197,65 @@
 			<div class="menu-box">
 				<nav class="full-menu">
 					<ul class="navigation">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="#products">Products</a></li>
-						<li><a href="#business">Business</a></li>
-						<li><a href="#developers">Developers</a></li>
-						<li><a href="#pricing">Pricing</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li class="current"><a href="contact.html">Contact us</a></li>
-						<li><a href="#login">Login</a></li>
-						<li><a href="#get-started">Get Started</a></li>
+						<li class="dropdown"><a href="#">Home</a>
+							<ul>
+								<li><a href="index-2.html">Home Page 01</a></li>
+								<li><a href="index-3.html">Home Page 02</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"><a href="#">About</a>
+							<ul>
+								<li><a href="about.html">About Us</a></li>
+								<li><a href="careers.html">Careers</a></li>
+								<li><a href="faq.html">Faq</a></li>
+								<li><a href="testimonials.html">Testimonial</a></li>
+								<li><a href="partners.html">Partners</a></li>
+								<li><a href="comming-soon.html">Comming Soon</a></li>
+							</ul>
+						</li>
+						<li class="current dropdown"><a href="#">Services</a>
+							<ul>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="services-single.html">Financial Planing</a></li>
+								<li><a href="savings-investments.html">Savings & Investments</a></li>
+								<li><a href="private-banking.html">Private Banking</a></li>
+								<li><a href="consumer-leasing.html">Consumer Leasing</a></li>
+								<li><a href="secured-transactions.html">Secured Transactions</a></li>
+								<li><a href="strategic-planing.html">Strategic Planing</a></li>
+								<li><a href="trade-stock.html">Trade & Stock</a></li>
+								<li><a href="insurance-consulting.html">Insurance Consulting</a></li>
+								<li><a href="retirment-planning.html">Retirment Planning</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"><a href="#">Gallery</a>
+							<ul>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="gallery-grid.html">Gallery Grid</a></li>
+								<li><a href="gallery-fullwidth.html">Gallery Fullwidth</a></li>
+								<li><a href="gallery-fullwidth-2.html">Gallery Fullwidth 2</a></li>
+								<li><a href="gallery-single.html">Gallery Single</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"><a href="#">Shop</a>
+							<ul>
+								<li><a href="shop.html">Our Products</a></li>
+								<li><a href="shop-single.html">Product Single</a></li>
+								<li><a href="shopping-cart.html">Shopping Cart</a></li>
+								<li><a href="checkout.html">Checkout</a></li>
+								<li><a href="account.html">Account</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"><a href="#">Blog</a>
+							<ul>
+								<li><a href="blog.html">Our Blog</a></li>
+								<li><a href="blog-list.html">Blog List</a></li>
+								<li><a href="blog-classic.html">Blog Classic</a></li>
+								<li><a href="blog-left-classic.html">Blog Left sidebar</a></li>
+								<li><a href="blog-single.html">Blog Single</a></li>
+								<li><a href="not-found.html">Not Found</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html">Contact us</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -213,10 +263,9 @@
 	</div><!--End FullScreen Menu-->
 
 	<!--Page Title-->
-    <section class="page-title" style="background-image:url(images/background/pexels-jep-gambardella-7689878.jpg);">
+    <section class="page-title" style="background-image:url(images/background/pexels-sora-shimazaki-5926382.jpg)">
     	<div class="auto-container">
-        	<h2>Contact Us</h2>
-			<div class="text" style="color: white; font-size: 18px; margin-top: 15px;">Get in touch with our support team</div>
+        	<h2>Developers</h2>
         </div>
     </section>
     
@@ -224,130 +273,137 @@
     <div class="breadcrumb-outer">
     	<div class="auto-container">
         	<ul class="bread-crumb text-center">
-            	<li><a href="index.html">Home</a> <span class="fa fa-angle-right"></span></li>
-                <li>Contact</li>
+            	<li><a href="index-2.html">Home</a> <span class="fa fa-angle-right"></span></li>
+                <li>Developers</li>
             </ul>
         </div>
     </div>
     <!--End Page Title-->
 	
-	<!--Contact Section-->
-    <section class="contact-page-section">
+	<!-- Services Section-->
+    <section class="services-section">
     	<div class="auto-container">
-        	<div class="row clearfix">
-            	
-               <!--Form Column-->
-                <div class="form-column col-lg-8 col-md-12 col-sm-12">
-                	<div class="inner-column">
-                    	<!--Sec Title-->
-                       	<div class="sec-title">
-						   <h2>Send us a Message</h2>
-						   <div class="text">Have questions about PyPay? Our team is here to help you with any inquiries about our payment platform, integration, or support.</div>
-						</div>
-                        <!--Contact Form-->
-                        <div class="contact-form">
-                            <form method="post" action="#" id="contact-form">
-                                <div class="row clearfix">
-                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="firstname" value="" placeholder="Your name" required>
-                                    </div>
-                                    
-                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="email" name="email" value="" placeholder="Your email address" required>
-                                    </div>
-                                    
-                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="tel" name="phone" value="" placeholder="Phone number" required>
-                                    </div>
-                                    
-                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <select name="subject" required style="width: 100%; padding: 15px; border: 1px solid #ddd; border-radius: 4px;">
-											<option value="">Select Subject</option>
-											<option value="General Inquiry">General Inquiry</option>
-											<option value="Technical Support">Technical Support</option>
-											<option value="Business Integration">Business Integration</option>
-											<option value="API/Developer Support">API/Developer Support</option>
-											<option value="Security Concern">Security Concern</option>
-											<option value="Partnership">Partnership Opportunity</option>
-										</select>
-                                    </div>
-                                    
-                                    <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                        <textarea name="message" placeholder="How can we help you today?" rows="6"></textarea>
-                                    </div>
-                                    
-                                    <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                        <button type="submit" class="theme-btn btn-style-one">Send Message</button>
-                                    </div>                                        
-                                </div>
-                            </form>
-                        </div>
-                        <!--End Contact Form-->
-						
-						<!--Social Links Section-->
-						<div style="margin-top: 50px; padding-top: 30px; border-top: 1px solid #eee;">
-							<h3>Connect With Us</h3>
-							<div class="text" style="margin-bottom: 20px;">Follow us on social media for updates, tips, and announcements</div>
-                   			<ul class="social-icon-one" style="display: flex; gap: 15px;">
-								<li><a href="#" style="background: #3b5998;"><span class="fa fa-facebook-f"></span></a></li>
-								<li><a href="#" style="background: #1da1f2;"><span class="fa fa-twitter"></span></a></li>
-								<li><a href="#" style="background: #0077b5;"><span class="fa fa-linkedin"></span></a></li>
-								<li><a href="#" style="background: #e1306c;"><span class="fa fa-instagram"></span></a></li>
-								<li><a href="#" style="background: #333;"><span class="fa fa-github"></span></a></li>
-							</ul>
-						</div>
-                    </div>
-                </div>
+    		<!--Title Box-->
+    		<div class="title-box">
+    			<div class="row clearfix">
+    				<div class="column col-lg-4 col-md-12 col-sm-12">
+						<h3>WE OFFER <br> DIFFERENT SERVICES</h3>
+					</div>
+					<div class="column col-lg-8 col-md-12 col-sm-12">
+						<div class="text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row clearfix">
 				
-				<!--Map Column-->
-                <div class="map-column col-lg-4 col-md-12 col-sm-12">
-                	<div class="inner-column">
-                    	<!--Map Canvas-->
-                        <div class="map-canvas"
-                            data-zoom="15"
-                            data-lat="9.0765"
-                            data-lng="7.3986"
-                            data-type="roadmap"
-                            data-hue="#13b5ea"
-                            data-title="PyPay Headquarters"
-                            data-icon-path="images/icons/map-marker.png"
-                            data-content="3 R A Adeleye Close, Abuja, Nigeria<br><a href='mailto:support@pypay.com'>support@pypay.com</a><br>Phone: +234 800 123 4567">
+           		<!--Services Block Two-->
+            	<div class="services-block-two col-lg-4 col-md-6 col-sm-12">
+                	<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    	<div class="image-box">
+                        	<img src="images/background/pexels-cottonbro-6804068.jpg" alt="" />
                         </div>
-						
-						<!--Contact Info-->
-						<div style="background: #f8f9fa; padding: 20px; margin-top: 20px; border-radius: 5px;">
-							<h4 style="margin-bottom: 15px;">Contact Information</h4>
-							<div style="margin-bottom: 10px;">
-								<strong>Address:</strong><br>
-								3 R A Adeleye Close, Abuja, Nigeria
-							</div>
-							<div style="margin-bottom: 10px;">
-								<strong>Email:</strong><br>
-								support@pypay.com
-							</div>
-							<div style="margin-bottom: 10px;">
-								<strong>Phone:</strong><br>
-								+234 800 123 4567
-							</div>
-							<div>
-								<strong>Support Hours:</strong><br>
-								24/7 Customer Support Available
-							</div>
-						</div>
+                        <!--Lower Box -->
+                        <div class="lower-box">
+                        	<div class="icon-box"><div class="icon flaticon-profits"></div></div>
+                            <h3>REST APIs</h3>
+                        </div>
+                        
+                        <!--Overlay Box-->
+                        <div class="overlay-box" style="background-image:url(images/resource/services-1.jpg)">
+                            <div class="overlay-inner">
+                            	<div class="content">
+                                	<div class="icon flaticon-profits"></div>
+                                    <h6><a href="services-single.html">Financial Planing</a></h6>
+                                    <div class="text">The ship set ground on the shore that this group would somehow form a family.</div>
+                                    <a href="services-single.html" class="theme-btn btn-style-three">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
+                    
                 </div>
                 
-			</div>
+                <!--Services Block Two-->
+            	<div class="services-block-two col-lg-4 col-md-6 col-sm-12">
+                	<div class="inner-box wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    	<div class="image-box">
+                        	<img src="images/background/pexels-sora-shimazaki-5926382.jpg" alt="" />
+                        </div>
+                        <!--Lower Box-->
+                        <div class="lower-box">
+                        	<div class="icon-box"><div class="icon flaticon-terminal"></div></div>
+                            <h3>Webhooks</h3>
+                        </div>
+                        
+                        <!--Overlay Box-->
+                        <div class="overlay-box" style="background-image:url(images/resource/services-2.jpg)">
+                            <div class="overlay-inner">
+                            	<div class="content">
+                                	<div class="icon flaticon-terminal"></div>
+                                    <h6><a href="services-single.html">Savings & Investments</a></h6>
+                                    <div class="text">The ship set ground on the shore that this group would somehow form a family.</div>
+                                    <a href="services-single.html" class="theme-btn btn-style-three">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+                <!--Services Block Two-->
+            	<div class="services-block-two col-lg-4 col-md-6 col-sm-12">
+                	<div class="inner-box wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+                    	<div class="image-box">
+                        	<img src="images/background/pexels-introspectivedsgn-7192243.jpg" alt="" />
+                        </div>
+                        <!--Lower Box-->
+                        <div class="lower-box">
+                        	<div class="icon-box"><div class="icon flaticon-dollar-coins"></div></div>
+                            <h3>SDKs</h3>
+                        </div>
+                        
+                        <!--Overlay Box-->
+                        <div class="overlay-box" style="background-image:url(images/resource/services-3.jpg)">
+                            <div class="overlay-inner">
+                            	<div class="content">
+                                	<div class="icon flaticon-dollar-coins"></div>
+                                    <h6><a href="services-single.html">Private Banking</a></h6>
+                                    <div class="text">The ship set ground on the shore that this group would somehow form a family.</div>
+                                    <a href="services-single.html" class="theme-btn btn-style-three">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+               	
+            </div>
+            
+            <!--Styled Pagination-->
+            <!-- <ul class="styled-pagination text-center">
+            	<li class="prev"><a href="#"><span class="fa fa-angle-left"></span></a></li>
+                <li><a href="#" class="active">1</a></li>
+                <li><a href="#">2</a></li>
+                <li class="next"><a href="#"><span class="fa fa-angle-right"></span></a></li>
+            </ul>                 -->
+            <!--End Styled Pagination-->
+            
         </div>
     </section>
+    <!--End Market Section-->
     
 	<!--Subscribe Style One-->
     <section class="subscribe-style-one alternate">
     	<div class="auto-container">
         	<div class="row clearfix">
 				<div class="col-lg-5 col-md-12 col-sm-12">
-					<h2>Stay Updated</h2>
-					<div class="text">Subscribe to our newsletter for the latest features, security updates, and payment insights.</div>
+					<h2>Newsletter Subscribe</h2>
+					<div class="text">Sign up today for hints, tips and the latest Updates.</div>
 				</div>
 				<div class="col-lg-7 col-md-12 col-sm-12">
 					<form method="post" action="#">
